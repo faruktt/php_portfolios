@@ -68,9 +68,10 @@ $result_portfolio = mysqli_query($db_connection, $select_portfolio);
 
 <nav class="navbar navbar-expand-lg bg-transprent py-4 fixed-top navigation" id="navbar">
 	<div class="container">
-	  <a class="navbar-brand" href="index.php">
-	 <img src="upload/logo/<?=$after_assoc_logo['header_logo']?>" alt="" width="120">
-	  </a>
+	<a class="navbar-brand" href="index.php" style="font-size: 24px; font-weight: bold;">
+    <img src="images/logo.png" alt="FARUK." onerror="this.style.display='none'; this.parentElement.innerHTML='FARUK.';" width="120">
+</a>
+
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="ti-view-list"></span>
 	  </button>
@@ -372,11 +373,14 @@ $result_portfolio = mysqli_query($db_connection, $select_portfolio);
 	<div class="container">
 		<div class="row align-items-center text-center text-lg-left">
 			<div class="col-lg-2">
-			<img src="upload/logo/<?=$after_assoc_logo['footer_logo']?>" alt="" width="120">
+			<a class="navbar-brand" href="index.php" style="font-size: 24px; font-weight: bold;">
+    <img src="images/logo.png" alt="FARUK." onerror="this.style.display='none'; this.parentElement.innerHTML='FARUK.';" width="120">
+</a>
+
 			</div>
 			<div class="col-lg-10">
 				<div class="text-right">
-					<p class="lead"><span class="text-color">Dreambuzz</span> © 2019 All Right Reserved Ratsaan.</p>
+					<p class="lead"><span class="text-color">Portfolios</span> © 2025 All Right Reserved FARUK.</p>
 					<a href="#top" class="backtop smoth-scroll"><i class="ti-angle-up"></i></a>
 				</div>
 			</div>
